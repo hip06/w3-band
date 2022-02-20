@@ -1,0 +1,15 @@
+1. header
+- nav
+- search
+
+2. slider
+// chèn ảnh có cha là div --> ảnh ko hiện vì thẻ div chưa có kích thướt
+--> xem tỉ lệ ảnh w/h --> CSS div padding = h/w
+
+3. contents
+- the band
+- tour dates
+- contact
+- map
+
+4.footer

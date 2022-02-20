@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fonts/fonts-icon/fontawesome-free-6.0.0-web/css/all.css">
+    <title>The Band</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    
+</head>
+<body>           
+    <div id="header">
+        <ul class="nav stylelistnone">
+            <li><a href="#">Home</a></li>
+            <li class="li-nav-phone"><a href="#band">Band</a></li>
+            <li class="li-nav-phone"><a href="#tour">Tour</a></li>
+            <li class="li-nav-phone"><a href="#contract">Contact</a></li>
+            <li class="li-nav-phone" id="nav-more">
+                <a href="#">
+                    More
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="sub-nav-more stylelistnone">
+                    <li><a href="#">Merchandise</a></li>
+                    <li><a href="#">Extras</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+    <div id="slider"></div>
+    <div id="contents-container">
+        <div id="band" class="box-the-band box-wrapper">
+            <h2 class="h2 center-text">THE BAND</h2>
+            <p class="sub-h2 center-text mtb-15px">We love music</p>
+            <p class="text-band mtb-15px">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="authors-wrapper">
+                <div class="box-author">
+                    <p class="name center-text mtb-15px">Name</p>
+                    <img src="./assets/img/authors/author.jpg" alt="Author-img" class="img-author">
+                </div>
+                <div class="box-author">
+                    <p class="name center-text mtb-15px">Name</p>
+                    <img src="./assets/img/authors/author.jpg" alt="Author-img" class="img-author">
+                </div>
+                <div class="box-author">
+                    <p class="name center-text mtb-15px">Name</p>
+                    <img src="./assets/img/authors/author.jpg" alt="Author-img" class="img-author">
+                </div>
+            </div>
+        </div>
+        <div id="tour" class="bg-tour">
+            <div class="box-tour box-wrapper">
+                <h2 class="h2 center-text">TOUR DATES</h2>
+                <p class="sub-h2 center-text mtb-15px">Remember to book your tickets!</p>
+                <ul class="calendar stylelistnone">
+                    <li>September <span>Sold out</span></li>
+                    <li>October <span>Sold out</span></li>
+                    <li>November <span id="n3">3</span></li>
+                </ul>
+                <div class="clear-float"></div>
+                <div class="box-buy-wrapper">
+                    <div class="box-buy-item">
+                        <img src="./assets/img/tours/newyork.jpg" alt="img-new-york" class="mewyork">
+                        <div class="tour-under-img">
+                            <h3 class="h3 mtb-15px">New York</h3>
+                            <p class="date mtb-15px">Fri 27 Nov 2016</p>
+                            <p class="text-tour mtb-15px">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button id="buy-btn" class="buy-btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="box-buy-item">
+                        <img src="./assets/img/tours/paris.jpg" alt="img-new-york" class="mewyork">
+                        <div class="tour-under-img">
+                            <h3 class="h3 mtb-15px">Paris</h3>
+                            <p class="date mtb-15px">Sat 28 Nov 2016</p>
+                            <p class="text-tour mtb-15px">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="buy-btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="box-buy-item">
+                        <img src="./assets/img/tours/sanfran.jpg" alt="img-new-york" class="mewyork">
+                        <div class="tour-under-img">
+                            <h3 class="h3 mtb-15px">San Francisco</h3>
+                            <p class="date mtb-15px">Sun 29 Nov 2016</p>
+                            <p class="text-tour mtb-15px">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="buy-btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contract" class="box-contract box-wrapper">
+            <h2 class="h2 center-text">CONTRACT</h2>
+            <p class="sub-h2 center-text mtb-15px">Fan? Drop a note!</p>
+            <div class="info-input">
+                <div class="info">
+                    <p>Chicago, US</p>
+                    <p>Phone: +00 151515</p>
+                    <p>Email: mail@mail.com</p>
+                </div>
+                <div class="input">
+                    <form action="">
+                        <div class="name-email">
+                            <input type="text" placeholder="Name" id="name" required>
+                            <input type="email" name="" id="email" placeholder="Email" required>
+                        </div>
+                        <input type="text" placeholder="Message" required>
+                        <input type="submit" value="SEND" class="send-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="box-map"></div>
+    </div>
+    <div id="footer">
+        <div class="logo-icon">
+            <i class="icn fa-brands fa-facebook-square"></i>
+            <i class="icn fa-brands fa-instagram"></i>
+            <i class="icn fa-brands fa-snapchat-square"></i>
+            <i class="icn fa-brands fa-pinterest-p"></i>
+            <i class="icn fa-brands fa-twitter"></i>
+            <i class="icn fa-brands fa-linkedin-in"></i>
+        </div>
+        <p class="copy-right">Powered by <a href="#">w3.css</a></p>
+    </div>
+    <div id="pop-up" class="pop-up-container">
+        <div class="pop-up-box">
+            <div class="pop-up-title">
+                <i class="icn-bag fa-solid fa-briefcase"></i>
+                Tickets
+            </div>
+            <div class="pop-up-contents">
+                <label for=""><i class="fa-solid fa-cart-shopping"></i>Tickets, $15 per person</label>
+                <input type="text" placeholder="How many?" name="" id="">
+                <label for=""><i class="fa-solid fa-user"></i>Send To</label>
+                <input type="text" placeholder="Enter email" name="" id="">
+                <div class="pay-btn">PAY</div>
+                <p>Need <span>help?</span></p>
+            </div>
+            <div id="x-btn" class="x-btn">X</div>
+        </div>
+    </div>
+    <div class="phone-menu" id="phone-nav"><i class="fa-solid fa-bars"></i></div>
+
+    <script>
+        var x = document.getElementById('x-btn');
+        var buybtns = document.querySelectorAll('#contents-container .box-buy-item .buy-btn');
+        var popUp = document.getElementById('pop-up');
+        for (var i = 0;i<buybtns.length;i++){
+            buybtns[i].addEventListener('click',function(e){
+            popUp.classList.add('dis-block')
+        })
+        }
+        x.addEventListener('click',function(e){
+            popUp.classList.remove('dis-block')
+        })
+        var phoneMenu = document.getElementById('phone-nav');
+        var subNavOpens = document.querySelectorAll('.li-nav-phone');
+        var currentNum = true;
+        phoneMenu.addEventListener('click',function(e){
+            if (currentNum){
+                for (var j=0;j<subNavOpens.length;j++){
+                subNavOpens[j].classList.add('dis-block');
+                currentNum = false;
+            } }else {
+                for (var j=0;j<subNavOpens.length;j++){
+                subNavOpens[j].classList.remove('dis-block');
+                currentNum = true;
+            }
+            }
+            var tagAs = document.querySelectorAll('#header>.nav>li>a');
+            for (var k = 0;k<tagAs.length;k++){
+                tagAs[k].addEventListener('click',function(e){
+                    for (var j=0;j<subNavOpens.length;j++){
+                    subNavOpens[j].classList.remove('dis-block');
+                    currentNum = true;
+                }})
+            }
+        })
+    </script>
+</body>
+</html> 
